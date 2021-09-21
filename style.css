@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    padding: 50px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(197, 197, 197);
+    background-color: rgb(71, 53, 45);
+}
+
+.title {
+    text-align: center;
+}
+
+.characters {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*  CHARACTER   */
+.character {
+    border: 10px solid rgba(170, 141, 103, 0.219);
+    width: 300px;
+    background-color: rgba(151, 114, 66, 0.219);
+    border-radius: 10px;
+
+    box-shadow: -11px 7px 40px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -11px 7px 40px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -11px 7px 40px -7px rgba(0,0,0,0.75);
+
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.character:hover {
+    transform: scale(1.05); 
+    background-color: rgba(206, 155, 90, 0.219);
+}
+
+.ch-name {
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.ch-image {
+    width: 170px;
+    padding: 20px 60px;
+}
+
+.ch-data {
+    text-align: center;
+}
+
+.ch-gender {
+    width: 30px;
+}
+
+.ch-species {
+    margin-top: -10px;
+}
+
+.ch-origin {
+    margin-top: -10px;
+}
